@@ -1,0 +1,42 @@
+
+.login{
+    height: 100vh;
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    &__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #2e2e2e5e;
+        border-radius: 0.5rem;
+    }
+    img{
+        width: 130px;
+        object-fit: contain;
+        height: 130px;
+        margin: 2rem 0;
+    }
+    button{
+        padding: 0.5rem;
+        border:none;
+        border-radius: 0.5rem;
+        &:hover{
+            background-color: #7474742a;
+            color: white;
+        }
+    }
+    p{
+        margin: 1rem 0;
+        padding: 3rem;
+        font-weight: 500;
+        span{
+            font-weight: 800;
+            color: white;
+        }
+    }
+}
