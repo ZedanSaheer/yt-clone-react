@@ -1,6 +1,13 @@
 @import '../../_base.scss';
 .videoMetaData {
    &__top {
+      div{
+         div{
+            span{
+               margin: 0 0.3rem;
+            }
+         }
+      }
       span {
          cursor: pointer;
       }
@@ -45,7 +52,6 @@
       }
    }
 }
-
 @media (max-width: $breakpoint-small) {
    .videoMetaData {
       h5 {

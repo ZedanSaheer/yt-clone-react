@@ -8,6 +8,7 @@
    font-size: 0.9rem;
 
    cursor: pointer;
+   text-transform: capitalize;
 
    &__top {
       margin-bottom: 0.5rem;
@@ -40,6 +41,9 @@
    &__details {
       display: flex;
       align-items: center;
+      span{
+         margin: 0.4rem 0.2rem;
+      }
    }
    &__channel {
       display: flex;
